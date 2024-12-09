@@ -1,7 +1,3 @@
-provider "kubernetes" {
-  config_path = "~/.kube/config"
-}
-
 #Kubernetes namespace to hold application
 resource "kubernetes_namespace" "terraform-k8s" {
   metadata {
