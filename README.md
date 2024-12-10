@@ -40,7 +40,12 @@ Initialize the Kubernetes cluster using kubeadm.
 
 
 ### 3. **Deploy with Terraform**
-user Jenkins file
+To deploy using Terraform, you can use Jenkins pipeline code in Jenkinsfile from my GitHub repository. The pipeline automates the execution of Terraform commands (init, plan, and apply) to provision resources in the Kubernetes cluster.
+
+Ensure that your Jenkins instance is properly configured to use this pipeline.
+The pipeline is simple and automated, allowing for seamless deployment of your application.
+groovy
+Copier le code
 ![image](https://github.com/user-attachments/assets/e0f757a9-9fa8-4510-8993-e9d4cfcf03c7)
 
 
