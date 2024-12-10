@@ -36,6 +36,12 @@ docker run -d -p 8080:8080 -p 50000:50000   -v ~/.kube:/var/jenkins_home/.kube  
 ### 2. **Configure the Kubernetes Cluster**
 Create a virtual machine on Azure.
 Initialize the Kubernetes cluster using kubeadm.
+![image](https://github.com/user-attachments/assets/27cc1a28-981e-4dd7-86c3-d0abcddf4ddc)
+
 
 ### 3. **Deploy with Terraform**
 user Jenkins file
+![image](https://github.com/user-attachments/assets/e0f757a9-9fa8-4510-8993-e9d4cfcf03c7)
+
+
+![image](https://github.com/user-attachments/assets/dfb08194-ba87-4f6d-9e33-57bb4c2a7d33)
